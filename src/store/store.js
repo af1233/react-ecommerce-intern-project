@@ -4,6 +4,7 @@ import categoryReducer from "./categorySlice";
 import modalReducer from "./modalSlice";
 import cartReducer from "./cartSlice";
 
+// .....store
 const store = configureStore({
     reducer: {
         product: productReducer,
